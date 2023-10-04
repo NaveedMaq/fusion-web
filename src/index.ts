@@ -1,11 +1,12 @@
 import { User } from './models/User';
 
-const user = new User({});
+const user = new User({ name: 'Apple', age: 20 });
 
-console.log(user.get('name'));
-console.log(user.get('age'));
+user.on('change', () => {});
+user.on('change', () => {
+  console.log('changed');
+});
 
-user.set({ name: 'newname' });
+user.on('asdfa', () => {});
 
-console.log(user.get('name'));
-console.log(user.get('age'));
+console.log(user);
