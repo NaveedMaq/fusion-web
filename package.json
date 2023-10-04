@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "concurrently": "^8.2.1",
     "json-server": "^0.17.4"
   },
