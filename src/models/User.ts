@@ -48,7 +48,7 @@ export class User {
   save(): void {
     const id = this.get('id');
     if (id) {
-      axios.post(`http://localhost:3000/users/${id}`, this.data);
+      axios.put(`http://localhost:3000/users/${id}`, this.data);
     } else {
       axios.post('http://localhost:3000/users', this.data);
     }
