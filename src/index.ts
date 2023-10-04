@@ -6,6 +6,6 @@ user.set({ name: 'naveed', age: 20 });
 
 user.save();
 
-setTimeout(() => {
-  console.log(user);
-}, 4000);
+user.events.on('change', () => console.log('change'));
+user.events.trigger('change');
+user.events.trigger('change');
