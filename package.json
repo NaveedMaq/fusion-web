@@ -1,12 +1,23 @@
 {
-  "name": "@naveedmaqbool/fusion-web",
-  "version": "1.0.2",
+  "name": "fusion-web",
+  "version": "1.0.1",
   "description": "An open-source Typescript frontend framework",
   "main": "./dist/index.js",
   "scripts": {},
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveedMaq/fusion-web"
+  },
+  "keywords": [
+    "frontend framework",
+    "ui",
+    "render",
+    "model",
+    "view"
+  ],
+  "author": "Naveed Maqbool <naveedmaqbool30@gmail.com>",
   "license": "ISC",
+  "homepage": "https://github.com/git.com/fusion#readme",
   "devDependencies": {
     "concurrently": "^8.2.1",
     "json-server": "^0.17.4"

@@ -2,3 +2,4 @@ src
 db.json
 index.html
 tsconfig.json
+*.tgz
