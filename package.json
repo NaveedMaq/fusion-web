@@ -1,7 +1,8 @@
 {
   "name": "@naveedmaqbool/fusion-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An open-source Typescript frontend framework",
+  "main": "./dist/index.js",
   "scripts": {},
   "keywords": [],
   "author": "",
