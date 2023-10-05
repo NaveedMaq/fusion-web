@@ -1,18 +1,12 @@
 {
-  "name": "fusion-web",
-  "version": "1.0.0",
+  "name": "@naveedmaqbool/fusion-web",
+  "version": "1.0.1",
   "description": "An open-source Typescript frontend framework",
-  "main": "index.js",
-  "scripts": {
-    "start:db": "json-server -w db.json",
-    "start:parcel": "npx parcel index.html",
-    "start": "concurrently npm:start:*"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "buffer": "^6.0.3",
     "concurrently": "^8.2.1",
     "json-server": "^0.17.4"
   },
